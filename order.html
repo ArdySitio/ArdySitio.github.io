@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Kupi-nang</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">
+                    Home
+                </a>   
+            </li>
+            <li>
+                <a href="./order.html">
+                    Order
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Kupi-nang</h1>
+    <h2>Form Order</h2>
+
+    <div id="container" >
+        <form action="submission.html" method="GET">
+            <table border="1" class="order-table">
+                <tr>
+                    <th>Jenis Kupi</th>
+                    <th>Harga</th>
+                    <th>Quality</th>
+                    <th>Large</th>
+                </tr>
+                <tr>
+                    <td>Es Kopi Susu</td>
+                    <td>IDR 15.000 (Reguler) IDR 20.000 (Large)</td>
+                    <td><input type="number" min="0" max="20"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Thai Tea</td>
+                    <td>IDR 14.000 (Reguler) IDR 18.000 (Large)</td>
+                    <td><input type="number" min="0" max="20"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Bubble & Milk Tea</td>
+                    <td>IDR 22.000 (Reguler) IDR 28.000 (Large)</td>
+                    <td><input type="number" min="0" max="20"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Coffee Latte</td>
+                    <td>IDR 18.000 (Reguler) IDR 25.000 (Large)</td>
+                    <td><input type="number" min="0" max="20"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+            <section class="submission">
+                <input type="submit" value="Order" >
+            </section>
+
+        </form>
+    </div>
+
+    <footer>Powered by HTML and CSS 2020</footer>
+</body>
+</html>

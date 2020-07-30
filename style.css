@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRd8fJ_X9dvsUnguuJfFbG3jcNXzcKAsxggWQ&usqp=CAU);
+}
+
+nav li {
+    display: inline-flex;
+    justify-items: end;
+    color: white;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav {
+    background-color: rgb(98, 23, 23);
+    padding: 10px;
+    border: rgb(26, 24, 24) solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    color: rgb(51, 49, 49);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.jenis-kupi {
+    border: 1px black solid;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 7px 47px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 47px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 47px -2px rgba(0,0,0,0.75);
+    margin-top: 10px;
+}
+
+.font-title {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.product-img {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.prod-table {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: cornsilk;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(192, 181, 28);
+}
+
+.order-table {
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.submission {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    size: 10px;
+}
+
+h1 .terimakasih {
+    color: rgb(37, 114, 114);
+}
